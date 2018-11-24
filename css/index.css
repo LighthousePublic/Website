@@ -7,6 +7,10 @@ html, body {
 	height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body .actual-hero .hero-head {
 	background-color: rgba(0, 0, 0, 10%)
 }
@@ -28,15 +32,46 @@ body .title {
 	letter-spacing: 0.05rem;
 }
 
+body .lighthouse-features {
+	background-color: #dedbdb;
+}
+
+body .lighthouse-features * {
+	background-color: #dedbdb !important;
+}
+
+body .lighthouse-features * {
+	color: black !important;
+}
+
+body .lighthouse-app-image {
+	box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
 body .lighthouse-students {
-	height: 200px;
 	background-color: #333;
+}
+
+body .lighthouse-students * {
+	color: white !important;
 }
 
 body .lighthouse-button {
 	background-color: #1971b6;
 	border: 0;
 	transition: background-color 0.1s;
+}
+
+body .lighthouse-no-border {
+	box-shadow: none;
+}
+
+body .lighthouse-no-border .title {
+	height: 5rem;
+}
+
+body .lighthouse-no-border .subtitle {
+	height: 7rem;
 }
 
 body .lighthouse-button:hover {
