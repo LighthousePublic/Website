@@ -27,29 +27,26 @@ body .lighthouse-hero-container {
 	height: 500px;
 }
 
-body .title {
+body .lighthouse-hero-container .title {
 	font-family: Georgia;
 	letter-spacing: 0.05rem;
+	font-weight: 100;
 }
 
 body .lighthouse-features {
-	background-color: #dedbdb;
+	background-color: #333;
 }
 
 body .lighthouse-features * {
-	background-color: #dedbdb !important;
+	background-color: #333 !important;
 }
 
 body .lighthouse-features * {
-	color: black !important;
-}
-
-body .lighthouse-app-image {
-	box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+	color: white !important;
 }
 
 body .lighthouse-students {
-	background-color: #333;
+	background-color: #ccc;
 }
 
 body .lighthouse-students * {
@@ -64,14 +61,6 @@ body .lighthouse-button {
 
 body .lighthouse-no-border {
 	box-shadow: none;
-}
-
-body .lighthouse-no-border .title {
-	height: 5rem;
-}
-
-body .lighthouse-no-border .subtitle {
-	height: 7rem;
 }
 
 body .lighthouse-button:hover {
@@ -113,6 +102,16 @@ body .lighthouse-icon {
 
 	body .lighthouse-hero-container .subtitle {
 		width: 50%;
+	}
+
+	body .lighthouse-no-border .title {
+		height: 5rem;
+		text-align: center;
+	}
+
+	body .lighthouse-no-border .subtitle {
+		height: 7rem;
+		text-align: center;
 	}
 }
 
