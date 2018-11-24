@@ -101,7 +101,8 @@ body .lighthouse-icon {
 
 @media (min-width: 768px) {
 	body .navbar,
-	body .navbar-brand {
+	body .navbar-brand,
+	body .navbar-burger {
 		min-height: 5rem;
 	}
 
