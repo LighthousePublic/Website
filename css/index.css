@@ -46,11 +46,28 @@ body .lighthouse-features * {
 }
 
 body .lighthouse-students {
-	background-color: #ccc;
+	background-color: #000;
 }
 
 body .lighthouse-students * {
 	color: white !important;
+}
+
+body .lighthouse-students .card {
+	width: 400px;
+}
+
+body .lighthouse-students .card * {
+	color: black !important;
+}
+
+body .lighthouse-students .card,
+body .lighthouse-students .card img {
+	border-radius: 8px;
+}
+
+body .lighthouse-profile-pic {
+	border-radius: 8px;
 }
 
 body .lighthouse-button {
@@ -113,6 +130,21 @@ body .lighthouse-icon {
 		height: 7rem;
 		text-align: center;
 	}
+
+
+	.flex-row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.flex-row {
+		margin-top: 3rem;
+	}
+
+	.flex-space-between {
+		justify-content: space-around;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -157,5 +189,33 @@ body .lighthouse-icon {
 
 	.lighthouse-cta-mobile a {
 		width: 75%;
+	}
+
+	.lighthouse-students .card {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 1325px) {
+	body .lighthouse-students .card {
+		width: 350px;
+	}
+}
+
+@media (max-width: 1125px) {
+	body .lighthouse-students .card {
+		width: 300px;
+	}
+}
+
+@media (max-width: 985px) {
+	body .lighthouse-students .card {
+		width: 275px;
+	}
+}
+
+@media (max-width: 850px) {
+	body .lighthouse-students .card {
+		width: auto;
 	}
 }
