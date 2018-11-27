@@ -196,6 +196,12 @@ body .lighthouse-icon {
 	}
 }
 
+@media (max-height: 400px) {
+	.lighthouse-cta-mobile .mobile-icons {
+		display: none;
+	}
+}
+
 @media (max-width: 1325px) {
 	body .lighthouse-students .card {
 		width: 350px;
