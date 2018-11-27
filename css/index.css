@@ -197,8 +197,15 @@ body .lighthouse-icon {
 }
 
 @media (max-height: 400px) {
-	.lighthouse-cta-mobile .mobile-icons {
+	.lighthouse-cta-mobile .mobile-icons,
+	.lighthouse-cta-desktop .desktop-icons {
 		display: none;
+	}
+}
+
+@media (max-height: 400px) {
+	body .desktop-subtitle, body .mobile-subtitle {
+		display: none !important;
 	}
 }
 
