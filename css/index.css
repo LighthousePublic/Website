@@ -196,6 +196,12 @@ body .lighthouse-icon {
 	}
 }
 
+@media screen and (max-width: 1087px) {
+	body .navbar-menu {
+		background-color: transparent;
+	}
+}
+
 @media (max-height: 400px) {
 	.lighthouse-cta-mobile .mobile-icons,
 	.lighthouse-cta-desktop .desktop-icons {
