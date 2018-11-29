@@ -15,6 +15,10 @@ body .actual-hero .hero-head {
 	background-color: rgba(0, 0, 0, 10%)
 }
 
+body .lighthouse-students .card a {
+	color: #3273dc !important;
+}
+
 body .actual-hero {
 	background-image: url('../assets/background-overlay-25-dark.png');
 	background-size: cover;
